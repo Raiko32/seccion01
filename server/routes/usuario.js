@@ -6,7 +6,7 @@ const app = express();
 
 
 app.get('/usuario', function(req, res) {
-    res.json('get Usuario LOCAL!!!');
+    res.json('get Usuario LOCAL si es !!!');
 });
 
 app.post('/usuario', function(req, res) {
